@@ -1,0 +1,110 @@
+.loginsignup {
+    width: 100%;
+    height: 80vh;
+    background: #fce3fe;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.loginsignup-container {
+    width: 450px;
+    background: white;
+    border: 2px solid rgba(255, 255, 255, 0.30);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginsignup-container h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.loginsignup-container .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-box input {
+    width: calc(100% - 0px); /* Adjust width based on padding */
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid #000;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #000;
+    padding: 20px; 
+    box-sizing: border-box;
+    transition: border-radius 0.2s ease;
+}
+
+.input-box input:focus {
+    border-radius: 0;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #000;
+}
+
+.input-box input::placeholder {
+    color: #000;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.remember-forgot a {
+    color: #000;
+    text-decoration: none;
+}
+
+.remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+    transition: background 0.3s ease;
+    margin-top: 20px;
+}
+
+.register-links {
+    font-size: 15px;
+    text-align: start;
+    margin: 20px 0 15px;
+}
+
+.register-links p a {
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-links p a:hover {
+    text-decoration: underline;
+    color: red;
+}
